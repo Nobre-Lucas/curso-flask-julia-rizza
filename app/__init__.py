@@ -9,4 +9,4 @@ app.config.from_object('config')
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-from app.controllers import index
+from app.controllers import index, greeting
